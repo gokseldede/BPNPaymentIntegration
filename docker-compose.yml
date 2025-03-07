@@ -1,0 +1,14 @@
+version: "3.4"
+
+services:
+  bpnpaymentintegration:
+    image: bpnpaymentintegration
+    build:
+      context: .
+      dockerfile: BPNPaymentIntegration.Deploy/Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - BALANCE_MANAGEMENT_API=https://balance-management-pi44.onrender.com
+    restart: always

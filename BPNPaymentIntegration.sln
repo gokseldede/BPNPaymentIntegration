@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPNPaymentIntegration", "BPNPaymentIntegration.csproj", "{B2598F63-D169-4E9E-89C4-34C9D6B1EC74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPNPaymentIntegration.Application", "..\BPNPaymentIntegration.Application\BPNPaymentIntegration.Application.csproj", "{11C782C1-3B04-4BC7-820F-5DC86F337DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPNPaymentIntegration.Domain", "..\BPNPaymentIntegration.Domain\BPNPaymentIntegration.Domain.csproj", "{73BC971F-933B-47A2-9529-27BFD708D569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPNPaymentIntegration.Infrastructure", "..\BPNPaymentIntegration.Infrastructure\BPNPaymentIntegration.Infrastructure.csproj", "{A61595F3-30D5-4F06-A8A5-1C5119092216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPNPaymentIntegration.Tests", "..\BPNPaymentIntegration.Tests\BPNPaymentIntegration.Tests.csproj", "{430E844B-C364-47EA-B530-D7F79C2DCAF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BPNPaymentIntegration.Deploy", "BPNPaymentIntegration.Deploy", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Dockerfile.txt = Dockerfile.txt
+		GitHubActions.yml = GitHubActions.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2598F63-D169-4E9E-89C4-34C9D6B1EC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2598F63-D169-4E9E-89C4-34C9D6B1EC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2598F63-D169-4E9E-89C4-34C9D6B1EC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2598F63-D169-4E9E-89C4-34C9D6B1EC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C782C1-3B04-4BC7-820F-5DC86F337DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C782C1-3B04-4BC7-820F-5DC86F337DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C782C1-3B04-4BC7-820F-5DC86F337DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C782C1-3B04-4BC7-820F-5DC86F337DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BC971F-933B-47A2-9529-27BFD708D569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BC971F-933B-47A2-9529-27BFD708D569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BC971F-933B-47A2-9529-27BFD708D569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BC971F-933B-47A2-9529-27BFD708D569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61595F3-30D5-4F06-A8A5-1C5119092216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61595F3-30D5-4F06-A8A5-1C5119092216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61595F3-30D5-4F06-A8A5-1C5119092216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61595F3-30D5-4F06-A8A5-1C5119092216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430E844B-C364-47EA-B530-D7F79C2DCAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430E844B-C364-47EA-B530-D7F79C2DCAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430E844B-C364-47EA-B530-D7F79C2DCAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430E844B-C364-47EA-B530-D7F79C2DCAF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E3947A3-69CF-4E96-A524-CF303BE4C38F}
+	EndGlobalSection
+EndGlobal
